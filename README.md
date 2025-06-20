@@ -2,9 +2,12 @@
 
 > A comprehensive collection of command-line bioinformatics tools for sequence analysis, BLAST processing, protein domain analysis, genome assembly QC, and data visualization.
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Tools](https://img.shields.io/badge/tools-51-green.svg)](.)
-[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS-lightgrey.svg)](.)
+[![License](https://img.shields.io/github/license/olympus-terminal/bioinformatics-toolkit)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/olympus-terminal/bioinformatics-toolkit?style=social)](https://github.com/olympus-terminal/bioinformatics-toolkit/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/olympus-terminal/bioinformatics-toolkit)](https://github.com/olympus-terminal/bioinformatics-toolkit/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/olympus-terminal/bioinformatics-toolkit)](https://github.com/olympus-terminal/bioinformatics-toolkit/commits/main)
+[![Tools](https://img.shields.io/badge/tools-51-green.svg)](https://github.com/olympus-terminal/bioinformatics-toolkit)
+[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS-lightgrey.svg)](https://github.com/olympus-terminal/bioinformatics-toolkit)
 
 ## 🧬 Overview
 
