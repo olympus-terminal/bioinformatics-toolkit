@@ -1,6 +1,6 @@
 # Contributing to Olympus Tools
 
-First off, thank you for considering contributing to Olympus Tools! 🎉
+Thank you for considering contributing to Olympus Tools.
 
 The following is a set of guidelines for contributing to our repositories. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
@@ -215,8 +215,4 @@ Feel free to:
 - Contact maintainers
 - Join our community discussions
 
-Thank you for contributing! 🙏
-
----
-
-**Happy coding!** 🚀
+Thank you for contributing!
