@@ -1,6 +1,6 @@
 # Bioinformatics Toolkit
 
-> A comprehensive collection of command-line bioinformatics tools for sequence analysis, BLAST processing, protein domain analysis, genome assembly QC, and data visualization.
+A comprehensive collection of command-line bioinformatics tools for sequence analysis, BLAST processing, protein domain analysis, genome assembly QC, and data visualization.
 
 [![License](https://img.shields.io/github/license/olympus-terminal/bioinformatics-toolkit)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/olympus-terminal/bioinformatics-toolkit?style=social)](https://github.com/olympus-terminal/bioinformatics-toolkit/stargazers)
@@ -9,9 +9,9 @@
 [![Tools](https://img.shields.io/badge/tools-51-green.svg)](https://github.com/olympus-terminal/bioinformatics-toolkit)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS-lightgrey.svg)](https://github.com/olympus-terminal/bioinformatics-toolkit)
 
-## 🧬 Overview
+## Overview
 
-This repository consolidates essential bioinformatics utilities designed for researchers and bioinformaticians working with genomic and proteomic data. The toolkit covers the entire workflow from raw sequence processing to visualization, with special support for high-performance computing (HPC) environments.
+This repository consolidates essential bioinformatics utilities for researchers and bioinformaticians working with genomic and proteomic data. The toolkit covers the entire workflow from raw sequence processing to visualization, with support for high-performance computing environments.
 
 ### Key Features
 
@@ -35,7 +35,7 @@ bioinformatics-toolkit/
 └── utils/                # General bioinformatics utilities
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -69,7 +69,7 @@ find . -name "*.sh" -o -name "*.py" -o -name "*.pl" | xargs chmod +x
 export PATH="$PATH:$(pwd)"
 ```
 
-## 🔧 Tool Categories
+## Tool Categories
 
 ### Sequence Analysis (`sequence-analysis/`)
 
@@ -124,7 +124,7 @@ Pre-configured SLURM job scripts for common bioinformatics tasks:
 - `gmap.sbatch` - GMAP alignment pipeline
 - `COUNT_AA.sbatch` - Parallel amino acid counting
 
-## 📊 Example Workflows
+## Example Workflows
 
 ### 1. Genome Assembly QC Pipeline
 
@@ -166,7 +166,7 @@ blastp -query proteins.fa -db nr -out blast.out -outfmt 6 -num_threads 8
 ./blast-tools/tally_blastp_by_genera.sh best_hits.txt > genera_summary.txt
 ```
 
-## 🔍 Advanced Features
+## Advanced Features
 
 ### Machine Learning Motif Discovery
 
@@ -192,7 +192,7 @@ sbatch hpc-scripts/BLEACH_3long.sbatch sample.fastq reference.fa
 sbatch hpc-scripts/BLEACH_5x5L.sbatch sample_R1.fq sample_R2.fq
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please:
 
@@ -209,7 +209,7 @@ Contributions are welcome! Please:
 - Follow existing naming conventions
 - Test on Linux and macOS when possible
 
-## 📚 Citations
+## Citations
 
 If you use these tools in your research, please cite:
 
@@ -222,25 +222,25 @@ If you use these tools in your research, please cite:
 }
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔗 External Resources
+## External Resources
 
 - [BLAST+ Documentation](https://www.ncbi.nlm.nih.gov/books/NBK279690/)
 - [HMMER User Guide](http://hmmer.org/documentation.html)
 - [Circos Tutorials](http://circos.ca/documentation/tutorials/)
 - [BioPython Tutorial](https://biopython.org/wiki/Documentation)
 
-## 💡 Tips & Tricks
+## Tips & Tricks
 
 - Many scripts support parallel processing - check for `-threads` or `-j` options
 - Use SLURM scripts as templates for your own HPC workflows
 - Combine tools with Unix pipes for complex analyses
 - Check script headers for detailed usage examples
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 Common issues and solutions:
 
@@ -249,7 +249,7 @@ Common issues and solutions:
 3. **SLURM errors**: Check partition names and resource requirements
 4. **Memory issues**: Use HPC scripts for large datasets
 
-## 📮 Contact
+## Contact
 
 For questions, issues, or collaborations:
 - GitHub Issues: [Create an issue](https://github.com/olympus-terminal/bioinformatics-toolkit/issues)
