@@ -1,0 +1,25 @@
+#!/bin/bash
+
+### assumes HMMsearch results, in .*domtblout format, are in the same directory as CDS and proteins ###
+### this script fetches nucleotide sequences. to fetch AA seq, specify .aa.fa files in fasta-search tool ###
+### argv1 = Pfam keyword query ###
+### 1st command to format HMMsearch results ###
+
+rm tabbed-*
+
+for f in *domtblout; do sed 's/ \+/\t/g' $f > tabbed-"$f"; done
+
+### searches HMMsearch results ###
+grep -nri "$1" tabbed-* >> "$1"result
+
+###formatting###
+sed 's/.*://g' "$1"result >> "$1"resultB
+
+###formatting###
+sed 's/\t.*//g' "$1"resultB >> "$1"resultC
+
+sort -u -k1,1 "$1"resultC > "$1"resultD
+
+### Uses Guowei's fastasearch program to extract fasta sequences to align and make tree ###
+/scratch/drn2/GUOWEI_FastaSearch/fasta-search-it-all.sh "$1"resultD *.tr.fa >> "$1"_multi.aln.fa
+
