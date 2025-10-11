@@ -1,6 +1,6 @@
 # Bioinformatics Toolkit
 
-A comprehensive collection of command-line bioinformatics tools for sequence analysis, BLAST processing, protein domain analysis, genome assembly QC, and data visualization.
+Command-line tools for sequence analysis, BLAST processing, protein domain analysis, genome assembly QC, and visualization.
 
 [![License](https://img.shields.io/github/license/olympus-terminal/bioinformatics-toolkit)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/olympus-terminal/bioinformatics-toolkit?style=social)](https://github.com/olympus-terminal/bioinformatics-toolkit/stargazers)
@@ -11,7 +11,7 @@ A comprehensive collection of command-line bioinformatics tools for sequence ana
 
 ## Overview
 
-This repository consolidates essential bioinformatics utilities for researchers and bioinformaticians working with genomic and proteomic data. The toolkit covers the entire workflow from raw sequence processing to visualization, with support for high-performance computing environments.
+Scripts and utilities for working with genomic and proteomic data, from raw sequence processing to visualization. Includes support for HPC cluster environments.
 
 ### Key Features
 
@@ -22,7 +22,7 @@ This repository consolidates essential bioinformatics utilities for researchers 
 - **Visualization**: Circos plots, UMAP projections, custom graphics
 - **HPC Integration**: SLURM job scripts for cluster computing
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 bioinformatics-toolkit/
