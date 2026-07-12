@@ -6,7 +6,7 @@
 
 Command-line tools for genomics and proteomics analysis — BLAST workflows, sequence manipulation, domain annotation, genome assembly QC, and visualization.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
 
 ## Tool Categories
 
@@ -33,4 +33,4 @@ Most scripts are standalone and take input via command-line arguments. See indiv
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) for details.
+GNU General Public License v3.0 - see [LICENSE](LICENSE) for details.
